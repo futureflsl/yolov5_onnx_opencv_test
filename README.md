@@ -8,9 +8,13 @@
 ##### （2）修改CMakeLists.txt中opencv路径，我使用的opencv4.5.4版本 
 ##### （3）修改main.cpp中onnx路径和图片路径 
 ##### （4）编译 
-mkdir build 
-cd build 
-cmake .. 
+mkdir build
+
+cd build
+
+cmake ..  
+
 make 
+
 ####  （5）运行 
 ./yolo
